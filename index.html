@@ -95,11 +95,14 @@ footer { text-align:center; padding:10px; color:#333; font-weight:bold; font-siz
     <input type="text"><input type="text">
     <input type="text"><input type="text">
   </div>
+  
   <label>الأثر الإيجابي للبرنامج</label>
-  <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:5px;">
-    <input type="text"><input type="text">
-    <input type="text"><input type="text">
-  </div>
+<div style="display:grid; grid-template-columns:1fr; gap:5px;">
+  <textarea 
+      style="width:100%; height:200px; padding:10px; resize:vertical;" 
+      placeholder="اكتب هنا تأثير البرنامج…"></textarea>
+</div>
+
   <label>الشواهد</label>
   <input type="file" multiple accept="image/*" onchange="storeImages(event)">
   <div class="counter" style="font-size:12px; color:#5b3a29; font-weight:bold;"></div>
